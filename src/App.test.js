@@ -28,6 +28,6 @@ describe('App Component Testing', () => {
       ReactDOM.render(<App />, rootContainer)
     })
     const h1 = rootContainer.querySelector('h1')
-    expect(h1.textContent).to.equal('Hello World')
+    expect(h1.textContent).to.equal('Hello World!')
   })
 })
